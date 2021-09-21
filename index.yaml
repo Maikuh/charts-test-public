@@ -3,6 +3,28 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.7.0
+    created: "2021-09-21T04:39:00.79463583Z"
+    deprecated: true
+    description: DEPRECATED Chart for PostgreSQL, an object-relational database management
+      system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: b72be0998de77a3e67d640b9eb65645c2d6a6472d736165ee7ad3059ed766283
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://github.com/Maikuh/charts-test-public/releases/download/postgresql-8.6.7/postgresql-8.6.7.tgz
+    version: 8.6.7
+  - apiVersion: v1
+    appVersion: 11.7.0
     created: "2021-09-20T21:21:47.090249348-04:00"
     deprecated: true
     description: DEPRECATED Chart for PostgreSQL, an object-relational database management
@@ -26,6 +48,26 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
+    created: "2021-09-21T04:39:00.97751723Z"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: acd5744d5a6400266d764cf931ff34fc8b99743b1d83ac137e681c15a1c23566
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - https://github.com/Maikuh/charts-test-public/releases/download/redis-10.5.10/redis-10.5.10.tgz
+    version: 10.5.10
+  - apiVersion: v1
+    appVersion: 5.0.7
     created: "2021-09-20T21:21:47.153502479-04:00"
     deprecated: true
     description: DEPRECATED Open source, advanced key-value store. It is often referred
@@ -44,4 +86,4 @@ entries:
     urls:
     - https://github.com/Maikuh/charts-test-public/releases/download/redis-10.5.7/redis-10.5.7.tgz
     version: 10.5.7
-generated: "2021-09-20T21:21:47.153507969-04:00"
+generated: "2021-09-21T04:39:00.977585631Z"
